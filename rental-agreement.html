@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Agreement | Cash For Keys Properties</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #000;
+            --card: #121212;
+            --text: #fff;
+            --text-soft: #a3a3a3;
+            --border: #262626;
+            --orange: #ff6700;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        .navbar {
+            background: var(--orange);
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo img {
+            height: 450px;
+            width: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .document-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .document-title h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: var(--orange);
+        }
+
+        .agreement-content {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 40px;
+            line-height: 1.8;
+            color: var(--text-soft);
+        }
+
+        .agreement-content h2 {
+            color: var(--orange);
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .agreement-content p {
+            margin-bottom: 15px;
+        }
+
+        .agreement-content ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .agreement-content li {
+            margin-bottom: 10px;
+        }
+
+        .signature-section {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 2px solid var(--border);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .signature-line {
+            text-align: center;
+        }
+
+        .line {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            min-height: 40px;
+        }
+
+        .label {
+            color: var(--text-soft);
+            font-size: 14px;
+        }
+
+        .print-btn {
+            display: block;
+            margin: 30px auto;
+            padding: 12px 30px;
+            background: var(--orange);
+            color: #000;
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .print-btn:hover {
+            background: #e55a00;
+            transform: scale(1.05);
+        }
+
+        @media print {
+            .navbar, .print-btn {
+                display: none;
+            }
+        }
+
+        footer {
+            background: #000;
+            padding: 30px 20px;
+            text-align: center;
+            color: var(--text-soft);
+            margin-top: 60px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-logo img {
+                height: 300px;
+            }
+
+            .nav-links {
+                gap: 15px;
+                font-size: 14px;
+            }
+
+            .agreement-content {
+                padding: 20px;
+            }
+
+            .signature-section {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo"><img src="logo-main.png" alt="Cash For Keys"></a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#process">How It Works</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="document-title">
+            <h1>Rental Agreement</h1>
+            <p>Cash For Keys Properties</p>
+        </div>
+
+        <div class="agreement-content">
+            <h2>RENTAL AGREEMENT</h2>
+            
+            <p>THIS RENTAL AGREEMENT ("Agreement") is entered into as of ________________ ("Effective Date"), between Cash For Keys Properties, a business operated by David Day, with address at ________________ ("Landlord"), and ________________ ("Tenant").</p>
+
+            <h2>1. PROPERTY</h2>
+            <p>Landlord agrees to rent to Tenant the property located at:</p>
+            <p>Address: ________________<br>
+            City, State, ZIP: ________________<br>
+            Property Type: ________________</p>
+
+            <h2>2. RENTAL TERM</h2>
+            <p>The rental term shall be for a period of ________________ months/years, beginning on ________________ and ending on ________________.</p>
+
+            <h2>3. RENT PAYMENT</h2>
+            <ul>
+                <li>Monthly Rent: $________________</li>
+                <li>Payment Due Date: ________________ of each month</li>
+                <li>Payment Method: ________________</li>
+                <li>Payment Address: ________________</li>
+                <li>Late Fee: $________________ if rent is not received by ________________ (date) of each month</li>
+            </ul>
+
+            <h2>4. SECURITY DEPOSIT</h2>
+            <p>Tenant shall pay a security deposit of $________________ upon signing this Agreement. The security deposit will be held by Landlord and returned within ________________ days after the end of the rental term, minus any deductions for damages or unpaid rent.</p>
+
+            <h2>5. UTILITIES</h2>
+            <p>Tenant is responsible for payment of the following utilities:</p>
+            <ul>
+                <li>Electricity</li>
+                <li>Gas</li>
+                <li>Water/Sewer</li>
+                <li>Internet</li>
+                <li>Other: ________________</li>
+            </ul>
+
+            <h2>6. MAINTENANCE & REPAIRS</h2>
+            <p>Tenant agrees to maintain the property in good condition and report any needed repairs to Landlord within ________________ days. Tenant is responsible for minor repairs and maintenance. Landlord is responsible for major structural repairs.</p>
+
+            <h2>7. OCCUPANCY</h2>
+            <p>Tenant agrees to occupy the property as primary residence with no more than ________________ occupants, unless prior written approval from Landlord is obtained.</p>
+
+            <h2>8. PETS</h2>
+            <p>Pets are ☐ Allowed ☐ Not Allowed. If allowed, pet deposit: $________________</p>
+
+            <h2>9. LEASE TERMINATION</h2>
+            <p>Either party may terminate this Agreement by providing ________________ days written notice before the end of the rental term. Early termination may result in penalties as follows: ________________</p>
+
+            <h2>10. RULES & REGULATIONS</h2>
+            <ul>
+                <li>No smoking inside the property</li>
+                <li>No illegal activities</li>
+                <li>Noise restrictions: quiet hours between ________________ and ________________</li>
+                <li>Landlord's right to inspect: ________________</li>
+                <li>Other: ________________</li>
+            </ul>
+
+            <h2>11. DEFAULT</h2>
+            <p>If Tenant fails to pay rent on time or violates any terms of this Agreement, Landlord may take legal action for eviction and collection of damages.</p>
+
+            <h2>12. GOVERNING LAW</h2>
+            <p>This Agreement shall be governed by the laws of ________________ (State).</p>
+
+            <div class="signature-section">
+                <div class="signature-line">
+                    <div class="line"></div>
+                    <div class="label">Landlord Signature & Date</div>
+                </div>
+                <div class="signature-line">
+                    <div class="line"></div>
+                    <div class="label">Tenant Signature & Date</div>
+                </div>
+            </div>
+
+            <button class="print-btn" onclick="window.print()">Print Agreement</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Cash For Keys Properties | David Day | 314-922-3083</p>
+    </footer>
+</body>
+</html>
