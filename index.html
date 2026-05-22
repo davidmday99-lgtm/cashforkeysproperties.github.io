@@ -10,40 +10,84 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --orange: #ff6700;
+            --orange-hover: #ff7d26;
+            --black: #000000;
+            --black-soft: #080808;
+            --card: #121212;
+            --border: #262626;
+            --text: #ffffff;
+            --text-soft: #d2d2d2;
+            --shadow: 0 18px 45px rgba(0,0,0,0.35);
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        body {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            color: #333;
+        html, body {
+            width: 100%;
+            overflow-x: hidden;
         }
 
+        body {
+            font-family: Inter, Arial, Helvetica, sans-serif;
+            background: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* GLOBAL LINKS */
+        a {
+            text-decoration: none;
+        }
+
+        .hero-contact a,
+        .contact-box a,
+        .footer a {
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .hero-contact a:hover,
+        .contact-box a:hover,
+        .footer a:hover {
+            color: var(--orange) !important;
+        }
+
+        /* NAVBAR */
         .navbar {
+            background: var(--orange);
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: #ff6700;
-            padding: 12px 0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
         .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 18px 0;
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
         }
 
         .nav-logo {
-            font-size: 24px;
+            font-size: 26px;
             font-weight: 800;
-            color: white;
+            color: #000;
+            white-space: nowrap;
             text-decoration: none;
             display: flex;
             align-items: center;
@@ -52,184 +96,179 @@
         .nav-logo img {
             max-height: 40px;
             width: auto;
+            margin-right: 10px;
         }
 
         .nav-links {
-            display: flex;
-            gap: 30px;
             list-style: none;
+            display: flex;
+            gap: 28px;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
         .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 15px;
-            transition: opacity 0.3s;
+            color: #000;
+            font-weight: 700;
+            display: none;
         }
 
-        .nav-links a:hover {
-            opacity: 0.8;
-        }
-
-        .nav-phone {
-            color: white;
-            font-weight: 800;
-            font-size: 16px;
-        }
-
+        /* HERO VIDEO */
         .hero {
-            background: linear-gradient(135deg, #ff6700 0%, #ff8533 100%);
+            background: #000;
             color: white;
-            padding: 60px 20px;
+            padding: 70px 20px 78px;
             text-align: center;
         }
 
         .hero-content {
-            max-width: 800px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
         .hero h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-            font-weight: 900;
+            font-size: 72px;
+            line-height: 1.02;
+            font-weight: 800;
+            margin-bottom: 22px;
+            letter-spacing: -1.6px;
         }
 
         .hero p {
-            font-size: 18px;
+            font-size: 22px;
+            font-weight: 700;
             margin-bottom: 30px;
-            opacity: 0.95;
         }
 
         .cta-buttons {
             display: flex;
-            gap: 20px;
             justify-content: center;
+            gap: 16px;
             flex-wrap: wrap;
         }
 
+        /* BUTTONS */
         .btn {
-            padding: 16px 32px;
-            font-size: 16px;
-            font-weight: 700;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s;
             display: inline-block;
+            padding: 15px 28px;
+            border-radius: 12px;
+            font-weight: 900;
+            transition: all 0.2s ease;
+            border: 2px solid transparent;
         }
 
         .btn-primary {
-            background: white;
-            color: #ff6700;
+            background: var(--orange);
+            color: #000;
+            border-color: var(--orange);
+            box-shadow: var(--shadow);
         }
 
         .btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            background: var(--orange-hover);
+            border-color: var(--orange-hover);
+            transform: translateY(-1px);
         }
 
         .btn-secondary {
-            background: rgba(255,255,255,0.2);
-            color: white;
-            border: 2px solid white;
+            background: transparent;
+            color: #fff;
+            border-color: #fff;
         }
 
         .btn-secondary:hover {
-            background: rgba(255,255,255,0.3);
+            background: #fff;
+            color: #000;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
+        /* GENERAL SECTIONS */
         .section {
-            padding: 60px 0;
+            padding: 84px 0;
+        }
+
+        .section-black {
+            background: #000;
+        }
+
+        .section-dark-gray {
+            background: var(--black-soft);
         }
 
         .section-title {
-            font-size: 36px;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
             font-weight: 900;
             margin-bottom: 40px;
             text-align: center;
-            color: #ff6700;
+            color: var(--orange);
         }
 
         .process-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 26px;
         }
 
         .process-card {
-            background: #f9f9f9;
-            padding: 30px;
-            border-radius: 12px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 28px;
             text-align: center;
-            border-top: 4px solid #ff6700;
-            transition: all 0.3s;
-        }
-
-        .process-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(255,103,0,0.1);
         }
 
         .process-number {
             font-size: 48px;
             font-weight: 900;
-            color: #ff6700;
+            color: var(--orange);
             margin-bottom: 15px;
         }
 
         .process-card h3 {
-            font-size: 20px;
-            margin-bottom: 15px;
-            color: #333;
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            color: #fff;
         }
 
         .process-card p {
-            color: #666;
-            font-size: 15px;
+            color: var(--text-soft);
+            font-size: 16px;
         }
 
         .benefits-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 26px;
         }
 
         .benefit-card {
-            background: white;
+            background: var(--card);
             padding: 30px;
-            border-radius: 12px;
-            border-left: 4px solid #ff6700;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            border-radius: 18px;
+            border: 1px solid var(--border);
         }
 
         .benefit-card h3 {
             font-size: 18px;
             margin-bottom: 12px;
-            color: #ff6700;
+            color: var(--orange);
+            font-weight: 800;
         }
 
         .benefit-card p {
-            color: #666;
+            color: var(--text-soft);
             font-size: 15px;
         }
 
         .why-section {
-            background: #f5f5f5;
+            background: var(--black-soft);
         }
 
         .cta-section {
-            background: #ff6700;
+            background: #000;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
             color: white;
             padding: 60px 20px;
             text-align: center;
@@ -237,35 +276,42 @@
 
         .cta-section h2 {
             font-size: 36px;
+            font-weight: 900;
             margin-bottom: 20px;
         }
 
         .cta-section p {
             font-size: 18px;
             margin-bottom: 30px;
-            opacity: 0.95;
+            color: var(--text-soft);
         }
 
+        /* FOOTER */
         footer {
-            background: #333;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
+            background: #000;
+            border-top: 1px solid var(--border);
+            padding: 60px 0;
         }
 
         .footer-content {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: 1.5fr 1fr 1fr;
             gap: 30px;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col {
             text-align: left;
-            margin-bottom: 30px;
         }
 
         .footer-col h4 {
             margin-bottom: 15px;
-            color: #ff6700;
+            color: var(--orange);
+            font-weight: 800;
+            font-size: 18px;
         }
 
         .footer-col ul {
@@ -273,54 +319,137 @@
         }
 
         .footer-col ul li {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
+            color: var(--text-soft);
         }
 
         .footer-col a {
-            color: #ccc;
+            color: var(--text-soft);
             text-decoration: none;
             transition: color 0.3s;
         }
 
         .footer-col a:hover {
-            color: #ff6700;
+            color: var(--orange);
+        }
+
+        /* RENTAL APPLICATIONS DROPDOWN */
+        .rental-apps {
+            position: relative;
+            display: inline-block;
+        }
+
+        .rental-apps-btn {
+            background: var(--orange);
+            color: #000;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .rental-apps-btn:hover {
+            background: var(--orange-hover);
+        }
+
+        .rental-apps-dropdown {
+            display: none;
+            position: absolute;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            min-width: 200px;
+            box-shadow: var(--shadow);
+            z-index: 1000;
+            bottom: 100%;
+            left: 0;
+            margin-bottom: 8px;
+        }
+
+        .rental-apps:hover .rental-apps-dropdown {
+            display: block;
+        }
+
+        .rental-apps-dropdown a {
+            display: block;
+            padding: 12px 16px;
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            border-bottom: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .rental-apps-dropdown a:last-child {
+            border-bottom: none;
+        }
+
+        .rental-apps-dropdown a:hover {
+            background: var(--border);
+            color: var(--orange);
         }
 
         .footer-bottom {
-            border-top: 1px solid #555;
-            padding-top: 20px;
             text-align: center;
-            color: #999;
+            margin-top: 40px;
+            color: var(--text-soft);
+            padding: 0 20px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1100px) {
             .hero h1 {
-                font-size: 32px;
+                font-size: 60px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .process-grid,
+            .benefits-grid {
+                grid-template-columns: 1fr;
             }
 
-            .hero p {
-                font-size: 16px;
+            .nav-container {
+                flex-direction: column;
+                gap: 12px;
             }
 
             .nav-links {
-                gap: 15px;
-                font-size: 13px;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 46px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero {
+                padding: 56px 16px 64px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+                letter-spacing: -0.8px;
             }
 
             .section-title {
-                font-size: 28px;
-            }
-
-            .cta-buttons {
-                flex-direction: column;
+                font-size: 34px;
             }
 
             .btn {
                 width: 100%;
+                max-width: 340px;
+                text-align: center;
             }
 
-            .process-grid {
-                grid-template-columns: 1fr;
+            .section {
+                padding: 48px 0;
             }
         }
     </style>
@@ -329,14 +458,9 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="/" class="nav-logo"><img src="logo-main.png" alt="Cash For Keys Properties" style="height: 50px; margin-right: 10px;"></a>
+            <a href="/" class="nav-logo"><img src="logo-main.png" alt="Cash For Keys Properties" style="height: 350px; width: auto; margin-right: 10px;"></a>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="#process">How It Works</a></li>
-                <li><a href="#why">Why Us</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/dday">Apply with DDAY</a></li>
-                <li><a href="/evad">Apply with Eva</a></li>
             </ul>
         </div>
     </nav>
@@ -347,8 +471,6 @@
             <h1>Sell Your House Fast for Cash</h1>
             <p>We buy any house in any condition. No realtor fees. No commissions. No repairs needed. Get a fair offer in 24 hours.</p>
             <div class="cta-buttons">
-                <a href="/dday" class="btn btn-primary">Apply with DDAY</a>
-                <a href="/evad" class="btn btn-primary">Apply with Eva</a>
             </div>
         </div>
     </section>
@@ -413,8 +535,6 @@
         <h2>Ready to Sell Your House for Cash?</h2>
         <p>Get a free, no-obligation offer today. Takes just 5 minutes.</p>
         <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-            <a href="/dday" class="btn btn-secondary">Apply with DDAY</a>
-            <a href="/evad" class="btn btn-secondary">Apply with Eva</a>
         </div>
     </section>
 
@@ -431,14 +551,22 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="#process">How It Works</a></li>
                     <li><a href="#why">Why Us</a></li>
-                    <li><a href="/dday">Apply with DDAY</a></li>
-                    <li><a href="/evad">Apply with Eva</a></li>
+                    <li><a href="/blog">Blog</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h4>Contact</h4>
                 <p>Email: cashforkeysproperties99@gmail.com</p>
                 <p>We buy houses nationwide.<br>All conditions accepted.</p>
+            </div>
+        </div>
+        <div style="text-align: center; padding: 0 20px; margin-bottom: 20px;">
+            <div class="rental-apps">
+                <button class="rental-apps-btn">Rental Applications</button>
+                <div class="rental-apps-dropdown">
+                    <a href="/dday">Apply with DDAY</a>
+                    <a href="/evad">Apply with Eva Daniels</a>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
