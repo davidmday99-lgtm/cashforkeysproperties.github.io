@@ -80,7 +80,20 @@
 
         @media (max-width: 768px) {
             .nav-logo img {
-                height: 150px;
+                height: 100%;
+                max-height: 400px;
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .nav-container {
+                flex-direction: column;
+                padding: 12px 10px;
+            }
+
+            .nav-logo {
+                width: 100%;
+                margin-bottom: 10px;
             }
 
             .navbar {
