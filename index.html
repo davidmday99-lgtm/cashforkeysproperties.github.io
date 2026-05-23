@@ -163,6 +163,12 @@
             color: #000;
             font-weight: 700;
             font-size: 1.1rem;
+            transition: transform 0.2s, font-size 0.2s;
+            display: inline-block;
+        }
+
+        .nav-links a:hover {
+            transform: scale(1.15);
         }
 
         /* HERO VIDEO */
@@ -589,8 +595,10 @@
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/#process">How It Works</a></li>
-                <li><a href="/rental-management">Rentals</a></li>
                 <li><a href="/blog">Blog</a></li>
+            </ul>
+            <ul class="nav-links" style="margin-top: 8px;">
+                <li><a href="/rental-management">Rental Management</a></li>
             </ul>
         </div>
     </nav>
