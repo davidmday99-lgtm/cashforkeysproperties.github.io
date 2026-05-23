@@ -354,6 +354,10 @@
                             <label for="ssn">Social Security Number <span class="required">*</span></label>
                             <input type="text" id="ssn" name="ssn" placeholder="XXX-XX-XXXX" maxlength="11" required>
                         </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth <span class="required">*</span></label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
                     </div>
                 </div>
 
@@ -477,42 +481,7 @@
                     </div>
                 </div>
 
-                <!-- Property Ownership -->
-                <div class="form-section">
-                    <h3>Property Status</h3>
-                    
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="ownership">Do you own the property? <span class="required">*</span></label>
-                            <select id="ownership" name="ownership" required>
-                                <option value="">-- Select --</option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
-                                <option value="unsure">Not Sure</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="mortgage">Is there a mortgage/lien? <span class="required">*</span></label>
-                            <select id="mortgage" name="mortgage" required>
-                                <option value="">-- Select --</option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
-                                <option value="unsure">Not Sure</option>
-                            </select>
-                        </div>
-                    </div>
 
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="estvalue">Estimated Property Value</label>
-                            <input type="number" id="estvalue" name="estvalue" placeholder="500000" min="0">
-                        </div>
-                        <div class="form-group">
-                            <label for="askingprice">Asking Price (if any)</label>
-                            <input type="number" id="askingprice" name="askingprice" placeholder="450000" min="0">
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Timeline -->
                 <div class="form-section">
