@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rental Agreement | Cash For Keys Properties</title>
+    <title>Rental Application | Cash For Keys Properties</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -46,6 +46,15 @@
             align-items: center;
         }
 
+        .nav-logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
         .nav-logo img {
             height: 200px;
             width: auto;
@@ -58,10 +67,15 @@
         }
 
         .nav-links a {
-            color: white;
+            color: #000;
             text-decoration: none;
             font-weight: 700;
             font-size: 1.1rem;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
         }
 
         @media (max-width: 768px) {
@@ -73,114 +87,151 @@
                 padding: 8px 0;
             }
 
-            .nav-logo {
-                font-size: 16px;
-            }
-
             .nav-links {
-                gap: 14px;
-                font-size: 0.9rem;
+                gap: 10px;
+                font-size: 12px;
             }
 
             .nav-links a {
-                font-size: 0.9rem;
+                font-size: 12px;
             }
         }
 
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 40px auto;
             padding: 0 20px;
         }
 
-        .document-title {
+        .form-header {
             text-align: center;
             margin-bottom: 40px;
         }
 
-        .document-title h1 {
+        .form-header h1 {
             font-size: 32px;
             margin-bottom: 10px;
             color: var(--orange);
         }
 
-        .agreement-content {
+        .form-header p {
+            font-size: 16px;
+            color: var(--text-soft);
+        }
+
+        .form-container {
             background: var(--card);
             border: 1px solid var(--border);
             border-radius: 12px;
             padding: 40px;
-            line-height: 1.8;
-            color: var(--text-soft);
         }
 
-        .agreement-content h2 {
-            color: var(--orange);
-            margin-top: 30px;
-            margin-bottom: 15px;
+        .form-section {
+            margin-bottom: 30px;
+        }
+
+        .form-section h2 {
             font-size: 18px;
-        }
-
-        .agreement-content p {
-            margin-bottom: 15px;
-        }
-
-        .agreement-content ul {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-
-        .agreement-content li {
-            margin-bottom: 10px;
-        }
-
-        .signature-section {
-            margin-top: 40px;
-            padding-top: 40px;
-            border-top: 2px solid var(--border);
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-        }
-
-        .signature-line {
-            text-align: center;
-        }
-
-        .line {
-            border-bottom: 2px solid var(--border);
+            color: var(--orange);
+            margin-bottom: 20px;
             padding-bottom: 10px;
-            margin-bottom: 10px;
-            min-height: 40px;
+            border-bottom: 2px solid var(--border);
         }
 
-        .label {
-            color: var(--text-soft);
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text);
             font-size: 14px;
         }
 
-        .print-btn {
-            display: block;
-            margin: 30px auto;
-            padding: 12px 30px;
-            background: var(--orange);
-            color: #000;
+        .required {
+            color: var(--orange);
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        select,
+        textarea {
+            padding: 12px;
+            border: 1px solid var(--border);
+            background: #000;
+            color: var(--text);
+            border-radius: 6px;
+            font-size: 14px;
+            font-family: 'Inter', sans-serif;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--orange);
+            box-shadow: 0 0 0 3px rgba(255, 103, 0, 0.1);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .button-row {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 14px 40px;
             border: none;
-            border-radius: 8px;
-            font-weight: 700;
+            border-radius: 6px;
             font-size: 16px;
+            font-weight: 700;
             cursor: pointer;
             transition: all 0.3s;
         }
 
-        .print-btn:hover {
-            background: #e55a00;
-            transform: scale(1.05);
+        .btn-primary {
+            background: var(--orange);
+            color: #000;
         }
 
-        @media print {
-            .navbar, .print-btn {
-                display: none;
-            }
+        .btn-primary:hover {
+            background: #e55a00;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 103, 0, 0.3);
         }
 
         footer {
@@ -192,21 +243,50 @@
         }
 
         @media (max-width: 768px) {
-            .nav-logo img {
-                height: 300px;
+            .form-header h1 {
+                font-size: 20px;
+                margin-bottom: 8px;
             }
 
-            .nav-links {
-                gap: 15px;
+            .form-header p {
+                font-size: 13px;
+            }
+
+            .form-container {
+                padding: 16px;
+            }
+
+            .form-section h2 {
+                font-size: 14px;
+                margin-bottom: 12px;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            label {
+                font-size: 12px;
+                margin-bottom: 6px;
+            }
+
+            input,
+            select,
+            textarea {
+                padding: 10px;
                 font-size: 14px;
             }
 
-            .agreement-content {
-                padding: 20px;
+            .button-row {
+                flex-direction: column;
+                gap: 12px;
             }
 
-            .signature-section {
-                grid-template-columns: 1fr;
+            .btn {
+                width: 100%;
+                padding: 12px 20px;
+                font-size: 14px;
             }
         }
     </style>
@@ -224,95 +304,118 @@
     </nav>
 
     <div class="container">
-        <div class="document-title">
-            <h1>Rental Agreement</h1>
-            <p>Cash For Keys Properties</p>
+        <div class="form-header">
+            <h1>Rental Application</h1>
+            <p>Apply to rent one of our properties</p>
         </div>
 
-        <div class="agreement-content">
+        <div class="form-container">
             <form action="https://formspree.io/f/xjgzrdev" method="POST">
-            <h2>RENTAL AGREEMENT</h2>
-            
-            <p>THIS RENTAL AGREEMENT ("Agreement") is entered into as of ________________ ("Effective Date"), between Cash For Keys Properties, a business operated by David Day, with address at ________________ ("Landlord"), and ________________ ("Tenant").</p>
 
-            <h2>1. PROPERTY</h2>
-            <p>Landlord agrees to rent to Tenant the property located at:</p>
-            <p>Address: ________________<br>
-            City, State, ZIP: ________________<br>
-            Property Type: ________________</p>
+                <!-- Applicant Information -->
+                <div class="form-section">
+                    <h2>Applicant Information</h2>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullname">Full Name <span class="required">*</span></label>
+                            <input type="text" id="fullname" name="fullname" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                    </div>
 
-            <h2>2. RENTAL TERM</h2>
-            <p>The rental term shall be for a period of ________________ months/years, beginning on ________________ and ending on ________________.</p>
-
-            <h2>3. RENT PAYMENT</h2>
-            <ul>
-                <li>Monthly Rent: $________________</li>
-                <li>Payment Due Date: ________________ of each month</li>
-                <li>Payment Method: ________________</li>
-                <li>Payment Address: ________________</li>
-                <li>Late Fee: $________________ if rent is not received by ________________ (date) of each month</li>
-            </ul>
-
-            <h2>4. SECURITY DEPOSIT</h2>
-            <p>Tenant shall pay a security deposit of $________________ upon signing this Agreement. The security deposit will be held by Landlord and returned within ________________ days after the end of the rental term, minus any deductions for damages or unpaid rent.</p>
-
-            <h2>5. UTILITIES</h2>
-            <p>Tenant is responsible for payment of the following utilities:</p>
-            <ul>
-                <li>Electricity</li>
-                <li>Gas</li>
-                <li>Water/Sewer</li>
-                <li>Internet</li>
-                <li>Other: ________________</li>
-            </ul>
-
-            <h2>6. MAINTENANCE & REPAIRS</h2>
-            <p>Tenant agrees to maintain the property in good condition and report any needed repairs to Landlord within ________________ days. Tenant is responsible for minor repairs and maintenance. Landlord is responsible for major structural repairs.</p>
-
-            <h2>7. OCCUPANCY</h2>
-            <p>Tenant agrees to occupy the property as primary residence with no more than ________________ occupants, unless prior written approval from Landlord is obtained.</p>
-
-            <h2>8. PETS</h2>
-            <p>Pets are ☐ Allowed ☐ Not Allowed. If allowed, pet deposit: $________________</p>
-
-            <h2>9. LEASE TERMINATION</h2>
-            <p>Either party may terminate this Agreement by providing ________________ days written notice before the end of the rental term. Early termination may result in penalties as follows: ________________</p>
-
-            <h2>10. RULES & REGULATIONS</h2>
-            <ul>
-                <li>No smoking inside the property</li>
-                <li>No illegal activities</li>
-                <li>Noise restrictions: quiet hours between ________________ and ________________</li>
-                <li>Landlord's right to inspect: ________________</li>
-                <li>Other: ________________</li>
-            </ul>
-
-            <h2>11. DEFAULT</h2>
-            <p>If Tenant fails to pay rent on time or violates any terms of this Agreement, Landlord may take legal action for eviction and collection of damages.</p>
-
-            <h2>12. GOVERNING LAW</h2>
-            <p>This Agreement shall be governed by the laws of ________________ (State).</p>
-
-            <div class="signature-section">
-                <div class="signature-line">
-                    <div class="line"></div>
-                    <div class="label">Landlord Signature & Date</div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="ssn">Social Security Number <span class="required">*</span></label>
+                            <input type="text" id="ssn" name="ssn" placeholder="XXX-XX-XXXX" maxlength="11" required>
+                        </div>
+                    </div>
                 </div>
-                <div class="signature-line">
-                    <div class="line"></div>
-                    <div class="label">Tenant Signature & Date</div>
-                </div>
-            </div>
 
-            <button type="button" class="print-btn" onclick="window.print()">Print Agreement</button>
-            <button type="submit" class="print-btn" style="background: var(--orange); color: #000;">Submit Agreement</button>
+                <!-- Employment Information -->
+                <div class="form-section">
+                    <h2>Employment Information</h2>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="jobtitle">Job Title <span class="required">*</span></label>
+                            <input type="text" id="jobtitle" name="jobtitle" required placeholder="Software Engineer">
+                        </div>
+                        <div class="form-group">
+                            <label for="employer">Employer Name <span class="required">*</span></label>
+                            <input type="text" id="employer" name="employer" required placeholder="Company Name">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="income">Monthly Income <span class="required">*</span></label>
+                            <input type="text" id="income" name="income" required placeholder="$0.00">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rental History -->
+                <div class="form-section">
+                    <h2>Rental History</h2>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="current_address">Current/Previous Address <span class="required">*</span></label>
+                            <input type="text" id="current_address" name="current_address" required placeholder="123 Main Street">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="landlord_name">Previous Landlord Name</label>
+                            <input type="text" id="landlord_name" name="landlord_name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="landlord_phone">Previous Landlord Phone</label>
+                            <input type="tel" id="landlord_phone" name="landlord_phone" placeholder="(555) 123-4567">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- References -->
+                <div class="form-section">
+                    <h2>References</h2>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="reference_name">Personal Reference Name</label>
+                            <input type="text" id="reference_name" name="reference_name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="reference_phone">Personal Reference Phone</label>
+                            <input type="tel" id="reference_phone" name="reference_phone" placeholder="(555) 123-4567">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agreement -->
+                <div class="checkbox-group">
+                    <input type="checkbox" id="agreement" name="agreement" required>
+                    <label for="agreement" style="margin-bottom: 0;">I certify that the information provided is true and accurate <span class="required">*</span></label>
+                </div>
+
+                <div class="button-row">
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </div>
             </form>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 Cash For Keys Properties | David Day | 314-922-3083</p>
+        <p>&copy; 2026 Cash For Keys Properties. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
