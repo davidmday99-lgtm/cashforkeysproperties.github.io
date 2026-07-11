@@ -119,18 +119,21 @@
         }
 
         .nav-logo img {
-            height: 450px;
-            width: auto;
-            margin-right: 10px;
+            width: min(420px, 92vw);
+            max-height: 160px;
+            height: auto;
+            object-fit: contain;
+            display: block;
         }
 
         @media (max-width: 768px) {
             .nav-logo img {
-                height: 100%;
-                max-height: 400px;
-                width: 100%;
-                object-fit: contain;
-            }
+            width: min(420px, 92vw);
+            max-height: 160px;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
 
             .nav-container {
                 flex-direction: column;
@@ -139,6 +142,7 @@
 
             .nav-logo {
                 width: 100%;
+                justify-content: center;
                 margin-bottom: 10px;
             }
 
@@ -191,6 +195,16 @@
         .hero-content {
             max-width: 1100px;
             margin: 0 auto;
+        }
+
+        .hero-logo {
+            width: min(760px, 92vw);
+            max-height: 360px;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto 28px;
+            border-radius: 16px;
+            box-shadow: 0 22px 60px rgba(255, 103, 0, 0.16);
         }
 
         .hero h1 {
@@ -532,6 +546,11 @@
                 padding: 30px 16px 40px;
             }
 
+            .hero-logo {
+                max-height: 230px;
+                margin-bottom: 20px;
+            }
+
             .hero h1 {
                 font-size: 28px;
                 letter-spacing: -0.8px;
@@ -617,6 +636,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
+            <img class="hero-logo" src="logo-main.png" alt="Cash For Keys Properties">
             <h1>Sell Your House Fast for Cash</h1>
             <p style="border-bottom: 3px solid var(--orange); padding-bottom: 20px; text-decoration: underline;">We buy any house in any condition. No realtor fees. No commissions. No repairs needed. Get a fair offer in 24 hours.</p>
             <div class="cta-buttons">
@@ -654,27 +674,27 @@
             <h2 class="section-title">Why Choose Cash For Keys Properties?</h2>
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <h3>✓ No Realtor Fees</h3>
+                    <h3>&#10003; No Realtor Fees</h3>
                     <p>Save thousands in commission. We handle everything directly with you.</p>
                 </div>
                 <div class="benefit-card">
-                    <h3>✓ Buy As-Is</h3>
+                    <h3>&#10003; Buy As-Is</h3>
                     <p>No repairs needed. We buy your house in whatever condition it's in right now.</p>
                 </div>
                 <div class="benefit-card">
-                    <h3>✓ Fast Cash Offer</h3>
+                    <h3>&#10003; Fast Cash Offer</h3>
                     <p>Get a fair offer within 24 hours. No waiting, no inspections, no appraisals.</p>
                 </div>
                 <div class="benefit-card">
-                    <h3>✓ Flexible Timeline</h3>
+                    <h3>&#10003; Flexible Timeline</h3>
                     <p>Close in 7 days or take 3 months. You set the pace that works for you.</p>
                 </div>
                 <div class="benefit-card">
-                    <h3>✓ No Contingencies</h3>
+                    <h3>&#10003; No Contingencies</h3>
                     <p>We don't need financing approval or inspections. Your sale won't fall through.</p>
                 </div>
                 <div class="benefit-card">
-                    <h3>✓ Transparent Process</h3>
+                    <h3>&#10003; Transparent Process</h3>
                     <p>No hidden fees. No surprises. You know exactly what to expect.</p>
                 </div>
             </div>
@@ -695,7 +715,7 @@
             <div class="footer-col">
                 <h4>Cash For Keys Properties</h4>
                 <p>We buy houses for cash nationwide. Fast, fair, and hassle-free.</p>
-                <a href="/submit-info" style="display: inline-block; margin-top: 15px; color: var(--orange); font-weight: 800; font-size: 18px; text-decoration: none;">Sell Your Home for Cash →</a>
+                <a href="/submit-info" style="display: inline-block; margin-top: 15px; color: var(--orange); font-weight: 800; font-size: 18px; text-decoration: none;">Sell Your Home for Cash &rarr;</a>
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>
@@ -725,6 +745,9 @@
                     <a href="https://freeratesupdate.com" target="_blank" style="display: inline-flex; align-items: center;">
                         <img src="fru-logo-v2.png" alt="Free Rates Update" style="height: 280px; width: auto;">
                     </a>
+                    <a href="https://homemortgageguys.com" target="_blank" rel="noopener" style="display: inline-flex; align-items: center;">
+                        <img src="home-mortgage-guys-logo.png" alt="Home Mortgage Guys" style="height: 92px; width: auto; background: #fff; border-radius: 8px; padding: 6px;">
+                    </a>
                 </div>
             </div>
         </div>
@@ -733,7 +756,6 @@
                 <button class="rental-apps-btn">Rental Applications</button>
                 <div class="rental-apps-dropdown">
                     <a href="/dday">Apply with DDAY</a>
-                    <a href="/evad">Apply with Eva Daniels</a>
                 </div>
             </div>
         </div>
@@ -743,3 +765,4 @@
     </footer>
 </body>
 </html>
+

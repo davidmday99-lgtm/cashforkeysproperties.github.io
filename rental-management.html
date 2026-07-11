@@ -98,18 +98,21 @@
         }
 
         .nav-logo img {
-            height: 450px;
-            width: auto;
-            margin-right: 10px;
+            width: min(420px, 92vw);
+            max-height: 160px;
+            height: auto;
+            object-fit: contain;
+            display: block;
         }
 
         @media (max-width: 768px) {
             .nav-logo img {
-                height: 100%;
-                max-height: 400px;
-                width: 100%;
-                object-fit: contain;
-            }
+            width: min(420px, 92vw);
+            max-height: 160px;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
 
             .nav-container {
                 flex-direction: column;
@@ -450,7 +453,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>Professional Rental Property Management</h1>
-        <p>Hands-off property ownership in Siesta Key, Sarasota, and St. Louis. We handle everything from tenant screening to maintenance — so you can enjoy passive income.</p>
+        <p>Hands-off property ownership in Siesta Key, Sarasota, and St. Louis. We handle everything from tenant screening to maintenance &mdash; so you can enjoy passive income.</p>
     </section>
 
     <!-- Service Areas -->
@@ -461,17 +464,17 @@
             
             <div class="areas-grid">
                 <div class="area-card">
-                    <div class="emoji">🏖️</div>
+                    <div class="emoji">ðŸ–ï¸</div>
                     <h3>Siesta Key</h3>
                     <p>Vacation rentals and long-term leases on Florida's #1 beach. We know the seasonal market, local regulations, and what tourists and residents want. Maximize your beachfront investment.</p>
                 </div>
                 <div class="area-card">
-                    <div class="emoji">🌴</div>
+                    <div class="emoji">ðŸŒ´</div>
                     <h3>Sarasota</h3>
                     <p>From downtown condos to suburban single-family homes. Sarasota's growing population means high rental demand. We keep your properties occupied with quality tenants year-round.</p>
                 </div>
                 <div class="area-card">
-                    <div class="emoji">🏛️</div>
+                    <div class="emoji">ðŸ›ï¸</div>
                     <h3>St. Louis</h3>
                     <p>The Gateway to the West offers strong rental yields. From Clayton to Soulard, we manage properties across the metro area. Affordable housing with solid cash flow potential.</p>
                 </div>
@@ -486,32 +489,32 @@
             
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="icon">🔍</div>
+                    <div class="icon">ðŸ”</div>
                     <h4>Tenant Screening</h4>
                     <p>Credit checks, background verification, employment confirmation, and rental history. We find reliable tenants who pay on time and respect your property.</p>
                 </div>
                 <div class="service-card">
-                    <div class="icon">💰</div>
+                    <div class="icon">ðŸ’°</div>
                     <h4>Rent Collection</h4>
-                    <p>Automated payment systems, late fee enforcement, and consistent follow-up. You get paid on time, every time — deposited directly to your account.</p>
+                    <p>Automated payment systems, late fee enforcement, and consistent follow-up. You get paid on time, every time &mdash; deposited directly to your account.</p>
                 </div>
                 <div class="service-card">
-                    <div class="icon">🔧</div>
+                    <div class="icon">ðŸ”§</div>
                     <h4>Maintenance & Repairs</h4>
                     <p>24/7 emergency response, vetted contractor network, and preventive maintenance. We protect your investment and keep tenants happy.</p>
                 </div>
                 <div class="service-card">
-                    <div class="icon">📋</div>
+                    <div class="icon">ðŸ“‹</div>
                     <h4>Lease Management</h4>
                     <p>Legally compliant lease agreements, renewals, and terminations. We handle the paperwork so you don't have to worry about legal exposure.</p>
                 </div>
                 <div class="service-card">
-                    <div class="icon">📊</div>
+                    <div class="icon">ðŸ“Š</div>
                     <h4>Financial Reporting</h4>
                     <p>Monthly statements, annual summaries, and tax-ready documentation. Full transparency on income, expenses, and ROI.</p>
                 </div>
                 <div class="service-card">
-                    <div class="icon">🏠</div>
+                    <div class="icon">ðŸ </div>
                     <h4>Property Inspections</h4>
                     <p>Regular move-in, move-out, and periodic inspections. Photo documentation and condition reports to protect your asset.</p>
                 </div>
@@ -526,28 +529,28 @@
             
             <div class="benefits-list">
                 <div class="benefit-item">
-                    <div class="check">✓</div>
+                    <div class="check">&#10003;</div>
                     <div>
                         <h4>Local Market Knowledge</h4>
                         <p>We live and invest in these markets ourselves. We know the neighborhoods, pricing trends, and what tenants are looking for.</p>
                     </div>
                 </div>
                 <div class="benefit-item">
-                    <div class="check">✓</div>
+                    <div class="check">&#10003;</div>
                     <div>
                         <h4>Transparent Pricing</h4>
                         <p>No hidden fees, no surprise charges. You'll know exactly what you're paying for and see exactly where your money goes.</p>
                     </div>
                 </div>
                 <div class="benefit-item">
-                    <div class="check">✓</div>
+                    <div class="check">&#10003;</div>
                     <div>
                         <h4>Fast Response Times</h4>
                         <p>Tenant issues don't wait for business hours. Neither do we. Quick communication keeps small problems from becoming big ones.</p>
                     </div>
                 </div>
                 <div class="benefit-item">
-                    <div class="check">✓</div>
+                    <div class="check">&#10003;</div>
                     <div>
                         <h4>Investor-First Mindset</h4>
                         <p>We're property investors too. Every decision we make is focused on protecting your investment and maximizing your returns.</p>
@@ -600,3 +603,4 @@
     </footer>
 </body>
 </html>
+
