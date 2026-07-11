@@ -21,8 +21,8 @@
         :root {
             --orange: #f36f4f;
             --orange-hover: #0d6e91;
-            --black: #ffffff;
-            --black-soft: #f8f4ec;
+            --black: rgba(255,255,255,0.88);
+            --black-soft: rgba(255,255,255,0.76);
             --card: #ffffff;
             --border: #d8e3ea;
             --text: #172231;
@@ -43,14 +43,14 @@
 
         body {
             font-family: Inter, Arial, Helvetica, sans-serif;
-            background: #ffffff;
+            background: linear-gradient(110deg, #f3a35f 0%, #f7bd52 24%, #7ed0df 58%, #1fb6b2 100%) fixed;
             color: #172231;
             line-height: 1.6;
         }
 
         .navbar {
-            background: #ffffff;
-            border-bottom: 1px solid var(--border);
+            background: linear-gradient(110deg, #f3a35f 0%, #f7bd52 24%, #7ed0df 58%, #1fb6b2 100%);
+            border-bottom: 1px solid rgba(255,255,255,0.45);
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -136,7 +136,7 @@
         }
 
         .hero {
-            background: linear-gradient(180deg, #ffffff 0%, #f8f4ec 100%);
+            background: transparent;
             color: #172231;
             padding: 70px 20px 78px;
             text-align: center;
@@ -498,7 +498,3 @@
     </script>
 </body>
 </html>
-
-
-
-
