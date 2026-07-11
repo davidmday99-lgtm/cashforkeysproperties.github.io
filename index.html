@@ -36,15 +36,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --orange: #ff6700;
-            --orange-hover: #ff7d26;
-            --black: #000000;
-            --black-soft: #080808;
-            --card: #121212;
-            --border: #262626;
-            --text: #ffffff;
-            --text-soft: #d2d2d2;
-            --shadow: 0 18px 45px rgba(0,0,0,0.35);
+            --orange: #1598a6;
+            --orange-hover: #0d6e91;
+            --black: #f7fbfc;
+            --black-soft: #edf6f8;
+            --card: #ffffff;
+            --border: #d8e3ea;
+            --text: #172231;
+            --text-soft: #5b6b7c;
+            --shadow: 0 18px 45px rgba(7,47,79,0.15);
         }
 
         * {
@@ -60,8 +60,8 @@
 
         body {
             font-family: Inter, Arial, Helvetica, sans-serif;
-            background: #000;
-            color: #fff;
+            background: #f7fbfc;
+            color: #172231;
             line-height: 1.6;
         }
 
@@ -92,7 +92,8 @@
 
         /* NAVBAR - COPIED EXACTLY FROM BLOG */
         .navbar {
-            background: var(--orange);
+            background: #ffffff;
+            border-bottom: 1px solid var(--border);
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -111,7 +112,7 @@
         .nav-logo {
             font-size: 26px;
             font-weight: 800;
-            color: #000;
+            color: #072f4f;
             white-space: nowrap;
             text-decoration: none;
             display: flex;
@@ -173,7 +174,7 @@
         }
 
         .nav-links a {
-            color: #000;
+            color: #072f4f;
             font-weight: 700;
             font-size: 1.1rem;
             transition: transform 0.2s, font-size 0.2s;
@@ -186,8 +187,8 @@
 
         /* HERO VIDEO */
         .hero {
-            background: #000;
-            color: white;
+            background: linear-gradient(180deg, #f7fbfc 0%, #edf6f8 100%);
+            color: #172231;
             padding: 70px 20px 78px;
             text-align: center;
         }
@@ -204,7 +205,7 @@
             display: block;
             margin: 0 auto 28px;
             border-radius: 16px;
-            box-shadow: 0 22px 60px rgba(255, 103, 0, 0.16);
+            box-shadow: 0 22px 60px rgba(7, 47, 79, 0.15);
         }
 
         .hero h1 {
@@ -221,7 +222,7 @@
         .hero h1:hover {
             color: var(--orange);
             opacity: 0.7;
-            text-shadow: 0 0 30px rgba(255, 103, 0, 0.4);
+            text-shadow: 0 0 30px rgba(21, 152, 166, 0.28);
         }
 
         .hero p {
@@ -249,7 +250,7 @@
 
         .btn-primary {
             background: var(--orange);
-            color: #000;
+            color: #ffffff;
             border-color: var(--orange);
             box-shadow: var(--shadow);
         }
@@ -268,7 +269,7 @@
 
         .btn-secondary:hover {
             background: #fff;
-            color: #000;
+            color: #072f4f;
         }
 
         /* GENERAL SECTIONS */
@@ -277,7 +278,7 @@
         }
 
         .section-black {
-            background: #000;
+            background: #f7fbfc;
         }
 
         .section-dark-gray {
@@ -315,7 +316,7 @@
         .process-card.clickable:hover {
             border-color: var(--orange);
             transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(255, 103, 0, 0.2);
+            box-shadow: 0 10px 30px rgba(21, 152, 166, 0.18);
         }
 
         .process-number {
@@ -329,7 +330,7 @@
             font-size: 22px;
             font-weight: 800;
             margin-bottom: 12px;
-            color: #fff;
+            color: #172231;
         }
 
         .process-card p {
@@ -367,10 +368,10 @@
         }
 
         .cta-section {
-            background: #000;
+            background: #ffffff;
             border-top: 1px solid var(--border);
             border-bottom: 1px solid var(--border);
-            color: white;
+            color: #172231;
             padding: 60px 20px;
             text-align: center;
         }
@@ -389,7 +390,8 @@
 
         /* FOOTER */
         footer {
-            background: #000;
+            background: #071b2b;
+            color: #ffffff;
             border-top: 1px solid var(--border);
             padding: 60px 0;
         }
@@ -421,11 +423,11 @@
 
         .footer-col ul li {
             margin-bottom: 8px;
-            color: var(--text-soft);
+            color: #d8e3ea;
         }
 
         .footer-col a {
-            color: var(--text-soft);
+            color: #d8e3ea;
             text-decoration: none;
             transition: color 0.3s;
         }
@@ -442,7 +444,7 @@
 
         .rental-apps-btn {
             background: var(--orange);
-            color: #000;
+            color: #ffffff;
             border: none;
             padding: 10px 16px;
             border-radius: 8px;
@@ -507,7 +509,7 @@
         .footer-bottom {
             text-align: center;
             margin-top: 40px;
-            color: var(--text-soft);
+            color: #d8e3ea;
             padding: 0 20px;
             padding-top: 20px;
             border-top: 1px solid var(--border);
