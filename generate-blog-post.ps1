@@ -139,7 +139,6 @@ $htmlTemplate = @"
                 <li><a href="/#why">Why Us</a></li>
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/dday">Apply with DDAY</a></li>
-                <li><a href="/evad">Apply with Eva</a></li>
             </ul>
         </div>
     </nav>
@@ -161,7 +160,6 @@ $htmlTemplate = @"
                 <p>Contact Cash For Keys Properties today for a free, no-obligation offer.</p>
                 <div class="cta-buttons">
                     <a href="/dday" class="btn">Apply with DDAY</a>
-                    <a href="/evad" class="btn">Apply with Eva</a>
                 </div>
             </div>
         </article>
@@ -208,8 +206,8 @@ $newPost = @{
 
 $indexData = @($newPost) + $indexData
 
-# Save updated index (keep only last 30 posts)
-$indexData | Select-Object -First 30 | ConvertTo-Json -Depth 10 | Set-Content -Path $postsIndexFile -Encoding UTF8
+# Save updated index (keep enough recent history for the blog page and search engines)
+$indexData | Select-Object -First 120 | ConvertTo-Json -Depth 10 | Set-Content -Path $postsIndexFile -Encoding UTF8
 Write-Output "Updated blog index: $postsIndexFile"
 
 # Git commit and push

@@ -1,130 +1,482 @@
 [
-    {
-        "id": "cash-home-buyers-breaking-down-the-process",
-        "slug": "2026-05-22-cash-home-buyers-breaking-down-the-process",
-        "date": "2026-05-22",
-        "author": "Cash For Keys Properties",
-        "title": "Cash Home Buyers: Breaking Down the Process",
-        "excerpt": "Understand exactly how the cash home buying process works from start to finish."
-    },
-    {
-        "id": "why-cash-buyers-are-best",
-        "title": "Why Cash Home Buyers Are Your Best Option",
-        "date": "2026-05-22",
-        "slug": "2026-05-22-why-cash-buyers-are-best",
-        "excerpt": "Learn why selling your home to a cash buyer is the fastest and easiest way to get out of a tough situation without the hassle of traditional real estate.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "selling-house-during-divorce",
-        "title": "Selling Your House During Divorce: A Practical Guide",
-        "date": "2026-05-23",
-        "slug": "2026-05-23-selling-house-during-divorce",
-        "excerpt": "Navigate the challenges of selling your home during divorce. Learn how cash buyers can simplify the process and help you move forward faster.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "avoiding-foreclosure-with-cash-sales",
-        "title": "Avoiding Foreclosure: How Cash Sales Can Save Your Credit",
-        "date": "2026-05-24",
-        "slug": "2026-05-24-avoiding-foreclosure-with-cash-sales",
-        "excerpt": "Facing foreclosure? Learn how selling to a cash buyer can help you avoid the devastating impact on your credit and get cash in your pocket.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "inherited-property-what-to-do",
-        "title": "Inherited a Property? Here's What to Do Next",
-        "date": "2026-05-25",
-        "slug": "2026-05-25-inherited-property-what-to-do",
-        "excerpt": "Inherited a house you don't need? Learn your options for selling inherited property quickly and easily without the hassle of repairs or realtor fees.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "downsizing-tips-for-seniors",
-        "title": "Downsizing Tips for Seniors: Sell Your Home Stress-Free",
-        "date": "2026-05-26",
-        "slug": "2026-05-26-downsizing-tips-for-seniors",
-        "excerpt": "Ready to downsize? Learn how seniors can sell their family home quickly and easily without the stress of repairs, showings, or long waits.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "selling-rental-properties-problem-tenants",
-        "title": "Selling Rental Properties with Problem Tenants",
-        "date": "2026-05-27",
-        "slug": "2026-05-27-selling-rental-properties-problem-tenants",
-        "excerpt": "Tired of dealing with difficult tenants? Learn how to sell your rental property fast, even with tenants still in place.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "moving-for-job-quick-sale",
-        "title": "Moving for a Job? How to Sell Your House Fast",
-        "date": "2026-05-28",
-        "slug": "2026-05-28-moving-for-job-quick-sale",
-        "excerpt": "Got a job offer in another city? Learn how to sell your house quickly so you can relocate without the stress of managing two homes.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "cash-vs-traditional-sale-signs",
-        "title": "7 Signs You Should Sell for Cash Instead of Listing",
-        "date": "2026-05-29",
-        "slug": "2026-05-29-cash-vs-traditional-sale-signs",
-        "excerpt": "Not sure if a cash sale is right for you? Here are 7 clear signs that selling to a cash buyer makes more sense than a traditional listing.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "hidden-costs-traditional-home-sales",
-        "title": "The Hidden Costs of Traditional Home Sales",
-        "date": "2026-05-30",
-        "slug": "2026-05-30-hidden-costs-traditional-home-sales",
-        "excerpt": "Think you'll net more selling traditionally? The hidden costs might surprise you. Learn what really eats into your home sale proceeds.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "estate-sales-simplified",
-        "title": "Estate Sales Simplified: Selling Property After a Death",
-        "date": "2026-05-31",
-        "slug": "2026-05-31-estate-sales-simplified",
-        "excerpt": "Dealing with an estate sale? Learn how to navigate probate, handle inherited property, and sell quickly without added stress during a difficult time.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "selling-fixer-upper-as-is",
-        "title": "Selling a Fixer-Upper As-Is: Your Complete Guide",
-        "date": "2026-06-01",
-        "slug": "2026-06-01-selling-fixer-upper-as-is",
-        "excerpt": "Own a home that needs major repairs? Learn why selling as-is to a cash buyer might be smarter than investing in renovations you won't enjoy.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "cash-sale-timeline-explained",
-        "title": "Cash Sale Timeline: What to Expect Day by Day",
-        "date": "2026-06-02",
-        "slug": "2026-06-02-cash-sale-timeline-explained",
-        "excerpt": "Wondering how fast a cash home sale really works? Here's a day-by-day breakdown of what happens from first contact to closing.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "common-myths-cash-buyers",
-        "title": "8 Common Myths About Cash Home Buyers—Debunked",
-        "date": "2026-06-03",
-        "slug": "2026-06-03-common-myths-cash-buyers",
-        "excerpt": "Heard scary things about cash buyers? Let's separate fact from fiction and reveal what working with a legitimate cash buyer is really like.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "tax-implications-cash-sales",
-        "title": "Tax Implications of Selling Your Home for Cash",
-        "date": "2026-06-04",
-        "slug": "2026-06-04-tax-implications-cash-sales",
-        "excerpt": "Wondering about taxes when selling your home? Learn about capital gains, exemptions, and what cash sales mean for your tax situation.",
-        "author": "Cash For Keys Properties"
-    },
-    {
-        "id": "how-to-prepare-for-cash-offer",
-        "title": "How to Prepare for a Cash Offer on Your Home",
-        "date": "2026-06-05",
-        "slug": "2026-06-05-how-to-prepare-for-cash-offer",
-        "excerpt": "Thinking about getting a cash offer? Here's what to gather, expect, and consider before reaching out to a cash home buyer.",
-        "author": "Cash For Keys Properties"
-    }
+  {
+    "id": "what-to-expect-after-you-request-a-cash-offer",
+    "title": "What to Expect After You Request a Cash Offer",
+    "date": "2026-07-11",
+    "slug": "2026-07-11-what-to-expect-after-you-request-a-cash-offer",
+    "excerpt": "Here is what usually happens after you submit your property information.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-flexible-closing-dates-help-sellers",
+    "title": "How Flexible Closing Dates Help Sellers",
+    "date": "2026-07-10",
+    "slug": "2026-07-10-how-flexible-closing-dates-help-sellers",
+    "excerpt": "A cash buyer may be able to close quickly or wait until your next step is ready.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "why-speed-matters-in-a-distressed-property-sale",
+    "title": "Why Speed Matters in a Distressed Property Sale",
+    "date": "2026-07-09",
+    "slug": "2026-07-09-why-speed-matters-in-a-distressed-property-sale",
+    "excerpt": "The longer a difficult property sits, the more costs and risk can build up.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-house-with-water-damage",
+    "title": "Selling a House With Water Damage",
+    "date": "2026-07-08",
+    "slug": "2026-07-08-selling-a-house-with-water-damage",
+    "excerpt": "Water damage can scare retail buyers, but an as-is buyer may still be ready to close.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-title-companies-help-cash-sales",
+    "title": "How Title Companies Help Cash Sales",
+    "date": "2026-07-07",
+    "slug": "2026-07-07-how-title-companies-help-cash-sales",
+    "excerpt": "Title companies make sure ownership, payoffs, and closing documents are handled correctly.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "questions-to-ask-before-accepting-a-cash-offer",
+    "title": "Questions to Ask Before Accepting a Cash Offer",
+    "date": "2026-07-06",
+    "slug": "2026-07-06-questions-to-ask-before-accepting-a-cash-offer",
+    "excerpt": "Ask the right questions so you know who you are working with and what happens next.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "when-an-as-is-sale-helps-families-move-on",
+    "title": "When an As-Is Sale Helps Families Move On",
+    "date": "2026-07-05",
+    "slug": "2026-07-05-when-an-as-is-sale-helps-families-move-on",
+    "excerpt": "Sometimes the best sale is the one that lets a family close a difficult chapter.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-house-with-fire-damage",
+    "title": "Selling a House With Fire Damage",
+    "date": "2026-07-04",
+    "slug": "2026-07-04-selling-a-house-with-fire-damage",
+    "excerpt": "Fire-damaged properties can still be sold when the buyer is prepared for repairs.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-direct-buyers-reduce-sale-uncertainty",
+    "title": "How Direct Buyers Reduce Sale Uncertainty",
+    "date": "2026-07-03",
+    "slug": "2026-07-03-how-direct-buyers-reduce-sale-uncertainty",
+    "excerpt": "Cash buyers can remove common reasons a traditional sale falls apart.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-property-after-tenants-move-out",
+    "title": "Selling a Property After Tenants Move Out",
+    "date": "2026-07-02",
+    "slug": "2026-07-02-selling-a-property-after-tenants-move-out",
+    "excerpt": "A recently vacated rental may need repairs, cleaning, and a fast plan.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "why-empty-houses-cost-more-than-you-think",
+    "title": "Why Empty Houses Cost More Than You Think",
+    "date": "2026-07-01",
+    "slug": "2026-07-01-why-empty-houses-cost-more-than-you-think",
+    "excerpt": "Vacant property expenses add up quickly while a home sits unsold.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-house-from-out-of-state",
+    "title": "Selling a House From Out of State",
+    "date": "2026-06-30",
+    "slug": "2026-06-30-selling-a-house-from-out-of-state",
+    "excerpt": "Remote owners can sell without repeated trips, showings, or local coordination headaches.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-to-compare-a-cash-offer-to-a-listing-price",
+    "title": "How to Compare a Cash Offer to a Listing Price",
+    "date": "2026-06-29",
+    "slug": "2026-06-29-how-to-compare-a-cash-offer-to-a-listing-price",
+    "excerpt": "The highest price is not always the highest net result after time, fees, and repairs.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-without-making-repairs-first",
+    "title": "Selling Without Making Repairs First",
+    "date": "2026-06-28",
+    "slug": "2026-06-28-selling-without-making-repairs-first",
+    "excerpt": "Repairs can be costly and risky. Selling as-is can keep things simple.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "what-makes-a-fair-cash-offer",
+    "title": "What Makes a Fair Cash Offer",
+    "date": "2026-06-27",
+    "slug": "2026-06-27-what-makes-a-fair-cash-offer",
+    "excerpt": "A fair offer should account for condition, speed, certainty, and seller convenience.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-house-with-liens-or-back-taxes",
+    "title": "Selling a House With Liens or Back Taxes",
+    "date": "2026-06-26",
+    "slug": "2026-06-26-selling-a-house-with-liens-or-back-taxes",
+    "excerpt": "Title issues can be intimidating, but they are often solvable during closing.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-investors-think-about-as-is-homes",
+    "title": "How Investors Think About As-Is Homes",
+    "date": "2026-06-25",
+    "slug": "2026-06-25-how-investors-think-about-as-is-homes",
+    "excerpt": "Understanding investor math helps sellers compare offers with realistic expectations.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "moving-an-elderly-parent-out-of-a-home",
+    "title": "Moving an Elderly Parent Out of a Home",
+    "date": "2026-06-24",
+    "slug": "2026-06-24-moving-an-elderly-parent-out-of-a-home",
+    "excerpt": "A direct as-is sale can make a family transition less overwhelming.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-house-with-foundation-problems",
+    "title": "Selling a House With Foundation Problems",
+    "date": "2026-06-23",
+    "slug": "2026-06-23-selling-a-house-with-foundation-problems",
+    "excerpt": "Foundation issues are serious, but they do not have to stop a cash sale.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "what-if-the-house-has-storm-damage",
+    "title": "What If the House Has Storm Damage",
+    "date": "2026-06-22",
+    "slug": "2026-06-22-what-if-the-house-has-storm-damage",
+    "excerpt": "Storm damage can complicate a traditional listing, but it may still be sellable as-is.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-house-before-foreclosure-gets-worse",
+    "title": "Selling a House Before Foreclosure Gets Worse",
+    "date": "2026-06-21",
+    "slug": "2026-06-21-selling-a-house-before-foreclosure-gets-worse",
+    "excerpt": "Acting earlier can preserve more options when mortgage pressure is building.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-fast-can-a-cash-sale-close",
+    "title": "How Fast Can a Cash Sale Close",
+    "date": "2026-06-20",
+    "slug": "2026-06-20-how-fast-can-a-cash-sale-close",
+    "excerpt": "Review the steps that affect whether a sale closes in days or a few weeks.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-house-with-code-violations",
+    "title": "Selling a House With Code Violations",
+    "date": "2026-06-19",
+    "slug": "2026-06-19-selling-a-house-with-code-violations",
+    "excerpt": "Code issues do not always prevent a sale when the buyer understands repairs.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "what-sellers-should-know-about-proof-of-funds",
+    "title": "What Sellers Should Know About Proof of Funds",
+    "date": "2026-06-18",
+    "slug": "2026-06-18-what-sellers-should-know-about-proof-of-funds",
+    "excerpt": "A real cash buyer should be able to show that funds are available to close.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "when-a-quick-sale-makes-more-sense-than-top-dollar",
+    "title": "When a Quick Sale Makes More Sense Than Top Dollar",
+    "date": "2026-06-17",
+    "slug": "2026-06-17-when-a-quick-sale-makes-more-sense-than-top-dollar",
+    "excerpt": "Sometimes certainty, timing, and reduced hassle matter more than a higher list price.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-rental-property-without-listing-it",
+    "title": "Selling a Rental Property Without Listing It",
+    "date": "2026-06-16",
+    "slug": "2026-06-16-selling-a-rental-property-without-listing-it",
+    "excerpt": "Landlords can sell directly without disrupting tenants or waiting on retail buyers.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "understanding-closing-costs-in-a-cash-sale",
+    "title": "Understanding Closing Costs in a Cash Sale",
+    "date": "2026-06-15",
+    "slug": "2026-06-15-understanding-closing-costs-in-a-cash-sale",
+    "excerpt": "Know what costs may apply and how a direct sale can simplify the numbers.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "why-as-is-does-not-mean-no-value",
+    "title": "Why As-Is Does Not Mean No Value",
+    "date": "2026-06-14",
+    "slug": "2026-06-14-why-as-is-does-not-mean-no-value",
+    "excerpt": "An as-is home can still have strong value even when repairs are needed.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-to-sell-a-house-during-probate",
+    "title": "How to Sell a House During Probate",
+    "date": "2026-06-13",
+    "slug": "2026-06-13-how-to-sell-a-house-during-probate",
+    "excerpt": "Probate property can be stressful, but an as-is sale may reduce the workload.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-after-a-job-relocation",
+    "title": "Selling After a Job Relocation",
+    "date": "2026-06-12",
+    "slug": "2026-06-12-selling-after-a-job-relocation",
+    "excerpt": "When work moves quickly, a fast cash closing can simplify the move.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "what-to-do-with-a-house-full-of-belongings",
+    "title": "What to Do With a House Full of Belongings",
+    "date": "2026-06-11",
+    "slug": "2026-06-11-what-to-do-with-a-house-full-of-belongings",
+    "excerpt": "You do not always have to empty a property before selling it as-is.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "avoiding-showings-when-you-sell",
+    "title": "Avoiding Showings When You Sell",
+    "date": "2026-06-10",
+    "slug": "2026-06-10-avoiding-showings-when-you-sell",
+    "excerpt": "Skip open houses, cleaning, and repeated showings by choosing a direct cash sale.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-vacant-house-fast",
+    "title": "Selling a Vacant House Fast",
+    "date": "2026-06-09",
+    "slug": "2026-06-09-selling-a-vacant-house-fast",
+    "excerpt": "Vacant homes can create costs and security concerns. Here is how a cash sale can help.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-cash-buyers-evaluate-a-property",
+    "title": "How Cash Buyers Evaluate a Property",
+    "date": "2026-06-08",
+    "slug": "2026-06-08-how-cash-buyers-evaluate-a-property",
+    "excerpt": "Learn what cash buyers look at when preparing a fair as-is offer.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "what-happens-when-a-house-needs-major-repairs",
+    "title": "What Happens When a House Needs Major Repairs",
+    "date": "2026-06-07",
+    "slug": "2026-06-07-what-happens-when-a-house-needs-major-repairs",
+    "excerpt": "A practical look at selling a property with roof, HVAC, plumbing, or foundation concerns.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-an-outdated-house-without-renovating",
+    "title": "Selling an Outdated House Without Renovating",
+    "date": "2026-06-06",
+    "slug": "2026-06-06-selling-an-outdated-house-without-renovating",
+    "excerpt": "See why an older or outdated house can still be sold quickly for cash without a remodel.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-to-prepare-for-cash-offer",
+    "title": "How to Prepare for a Cash Offer on Your Home",
+    "date": "2026-06-05",
+    "slug": "2026-06-05-how-to-prepare-for-cash-offer",
+    "excerpt": "Thinking about getting a cash offer? Here",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "how-to-prepare-for-a-cash-offer",
+    "title": "How to Prepare for a Cash Offer",
+    "date": "2026-06-05",
+    "slug": "2026-06-05-how-to-prepare-for-a-cash-offer",
+    "excerpt": "Learn the simple steps to prepare for a cash home offer and maximize your chances of getting the best possible price.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "tax-implications-of-cash-sales",
+    "title": "Tax Implications of Cash Sales",
+    "date": "2026-06-04",
+    "slug": "2026-06-04-tax-implications-of-cash-sales",
+    "excerpt": "Understand the tax considerations when selling your home for cash and how they compare to traditional real estate sales.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "tax-implications-cash-sales",
+    "title": "Tax Implications of Selling Your Home for Cash",
+    "date": "2026-06-04",
+    "slug": "2026-06-04-tax-implications-cash-sales",
+    "excerpt": "Wondering about taxes when selling your home? Learn about capital gains, exemptions, and what cash sales mean for your tax situation.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "common-myths-cash-buyers",
+    "title": "8 Common Myths About Cash Home Buyers—Debunked",
+    "date": "2026-06-03",
+    "slug": "2026-06-03-common-myths-cash-buyers",
+    "excerpt": "Heard scary things about cash buyers? Let",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "common-myths-about-cash-buyers",
+    "title": "Common Myths About Cash Buyers",
+    "date": "2026-06-03",
+    "slug": "2026-06-03-common-myths-about-cash-buyers",
+    "excerpt": "Separate fact from fiction about cash home buyers and discover why many common misconceptions about cash sales are simply not true.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "cash-sale-timeline-explained",
+    "title": "Cash Sale Timeline: What to Expect Day by Day",
+    "date": "2026-06-02",
+    "slug": "2026-06-02-cash-sale-timeline-explained",
+    "excerpt": "Wondering how fast a cash home sale really works? Here",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-fixer-upper-as-is",
+    "title": "Selling a Fixer-Upper As-Is: Your Complete Guide",
+    "date": "2026-06-01",
+    "slug": "2026-06-01-selling-fixer-upper-as-is",
+    "excerpt": "Own a home that needs major repairs? Learn why selling as-is to a cash buyer might be smarter than investing in renovations you won",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-a-fixer-upper-as-is",
+    "title": "Selling a Fixer-Upper As-Is",
+    "date": "2026-06-01",
+    "slug": "2026-06-01-selling-a-fixer-upper-as-is",
+    "excerpt": "Discover how to sell your fixer-upper home quickly and easily without making expensive repairs or renovations first.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "estate-sales-simplified",
+    "title": "Estate Sales Simplified: Selling Property After a Death",
+    "date": "2026-05-31",
+    "slug": "2026-05-31-estate-sales-simplified",
+    "excerpt": "Dealing with an estate sale? Learn how to navigate probate, handle inherited property, and sell quickly without added stress during a difficult time.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "hidden-costs-traditional-home-sales",
+    "title": "The Hidden Costs of Traditional Home Sales",
+    "date": "2026-05-30",
+    "slug": "2026-05-30-hidden-costs-traditional-home-sales",
+    "excerpt": "Think you",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "hidden-costs-of-traditional-home-sales",
+    "title": "Hidden Costs of Traditional Home Sales",
+    "date": "2026-05-30",
+    "slug": "2026-05-30-hidden-costs-of-traditional-home-sales",
+    "excerpt": "Discover the often-overlooked expenses that can significantly reduce your profits when selling your home through traditional real estate channels.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "signs-you-should-sell-for-cash-vs-traditional",
+    "title": "Signs You Should Sell for Cash vs Traditional",
+    "date": "2026-05-29",
+    "slug": "2026-05-29-signs-you-should-sell-for-cash-vs-traditional",
+    "excerpt": "Learn the key indicators that suggest selling your home for cash is the better option compared to traditional real estate sales.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "cash-vs-traditional-sale-signs",
+    "title": "7 Signs You Should Sell for Cash Instead of Listing",
+    "date": "2026-05-29",
+    "slug": "2026-05-29-cash-vs-traditional-sale-signs",
+    "excerpt": "Not sure if a cash sale is right for you? Here are 7 clear signs that selling to a cash buyer makes more sense than a traditional listing.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "moving-for-job-quick-sale",
+    "title": "Moving for a Job? How to Sell Your House Fast",
+    "date": "2026-05-28",
+    "slug": "2026-05-28-moving-for-job-quick-sale",
+    "excerpt": "Got a job offer in another city? Learn how to sell your house quickly so you can relocate without the stress of managing two homes.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "moving-for-a-job-quick-sale-strategies",
+    "title": "Moving for a Job - Quick Sale Strategies",
+    "date": "2026-05-28",
+    "slug": "2026-05-28-moving-for-a-job-quick-sale-strategies",
+    "excerpt": "Discover effective strategies for selling your home quickly when relocating for a new job, including how cash buyers can help you avoid the stress of traditional real estate sales.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-rental-properties-with-problem-tenants",
+    "title": "Selling Rental Properties with Problem Tenants",
+    "date": "2026-05-27",
+    "slug": "2026-05-27-selling-rental-properties-with-problem-tenants",
+    "excerpt": "Learn how to sell rental properties with difficult or problematic tenants by working with cash buyers who understand the unique challenges of investment properties.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-rental-properties-problem-tenants",
+    "title": "Selling Rental Properties with Problem Tenants",
+    "date": "2026-05-27",
+    "slug": "2026-05-27-selling-rental-properties-problem-tenants",
+    "excerpt": "Tired of dealing with difficult tenants? Learn how to sell your rental property fast, even with tenants still in place.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "downsizing-tips-for-seniors",
+    "title": "Downsizing Tips for Seniors: Sell Your Home Stress-Free",
+    "date": "2026-05-26",
+    "slug": "2026-05-26-downsizing-tips-for-seniors",
+    "excerpt": "Ready to downsize? Learn how seniors can sell their family home quickly and easily without the stress of repairs, showings, or long waits.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "inherited-property-what-to-do",
+    "title": "Inherited a Property? Here's What to Do Next",
+    "date": "2026-05-25",
+    "slug": "2026-05-25-inherited-property-what-to-do",
+    "excerpt": "Inherited a house you don",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "avoiding-foreclosure-with-cash-sales",
+    "title": "Avoiding Foreclosure: How Cash Sales Can Save Your Credit",
+    "date": "2026-05-24",
+    "slug": "2026-05-24-avoiding-foreclosure-with-cash-sales",
+    "excerpt": "Facing foreclosure? Learn how selling to a cash buyer can help you avoid the devastating impact on your credit and get cash in your pocket.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "selling-house-during-divorce",
+    "title": "Selling Your House During Divorce: A Practical Guide",
+    "date": "2026-05-23",
+    "slug": "2026-05-23-selling-house-during-divorce",
+    "excerpt": "Navigate the challenges of selling your home during divorce. Learn how cash buyers can simplify the process and help you move forward faster.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "why-cash-buyers-are-best",
+    "title": "Why Cash Home Buyers Are Your Best Option",
+    "date": "2026-05-22",
+    "slug": "2026-05-22-why-cash-buyers-are-best",
+    "excerpt": "Learn why selling your home to a cash buyer is the fastest and easiest way to get out of a tough situation without the hassle of traditional real estate.",
+    "author": "Cash For Keys Properties"
+  },
+  {
+    "id": "cash-home-buyers-breaking-down-the-process",
+    "title": "Cash Home Buyers: Breaking Down the Process",
+    "date": "2026-05-22",
+    "slug": "2026-05-22-cash-home-buyers-breaking-down-the-process",
+    "excerpt": "Understand exactly how the cash home buying process works from start to finish.",
+    "author": "Cash For Keys Properties"
+  }
 ]
