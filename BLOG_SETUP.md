@@ -54,10 +54,10 @@ Both dday.html and evad.html now use Formspree for form submissions.
 ## Design Updates
 
 ### Colors (Beach Theme)
-- Primary Teal: `#1598a6`
-- Deep Blue: `#0d6e91`
+- Primary Coral: `#f36f4f`
+- Coastal Blue: `#0d6e91`
 - Navy: `#072f4f`
-- Sand: `#f7fbfc`
+- Sand: `#f8f4ec`
 - White: `#ffffff`
 
 ### Logo Implementation
